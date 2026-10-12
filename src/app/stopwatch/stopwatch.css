@@ -1,0 +1,25 @@
+/* افزودن یک ترنزیشن نرم به تمام دکمه‌ها */
+button {
+    transition: all 0.2s ease-in-out;
+    border-radius: 8px; /* گوشه‌های گرد */
+    font-weight: 600;
+}
+
+/* افکت جذاب هنگام هاور (وقتی موس میره روی دکمه) */
+button:hover {
+    filter: brightness(1.1); /* کمی روشن‌تر میشه */
+    transform: translateY(-2px); /* کمی میاد بالا */
+}
+
+/* افکت فشرده شدن هنگام کلیک (حس دکمه واقعی) */
+button:active {
+    transform: translateY(0); /* برمی‌گرده سر جاش */
+    scale: 0.95; /* کمی کوچک میشه */
+}
+
+/* زیباتر کردن نمایش زمان */
+h1 {
+    font-family: 'Courier New', monospace; /* فونت مونو اسپیس برای اعداد عالیه */
+    letter-spacing: -2px;
+    color: #1e293b;
+}
