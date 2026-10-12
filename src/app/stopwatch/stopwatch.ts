@@ -9,7 +9,6 @@ import { Component, signal } from '@angular/core';
 export class Stopwatch {
 
   time = signal(0);
-
   interval : any = null;
 
   start(){
